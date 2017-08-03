@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoScrollBars", "TwoScrollBars\TwoScrollBars.vcxproj", "{7F5F0C3E-7BB9-4883-B11C-59B9EE90B030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F5F0C3E-7BB9-4883-B11C-59B9EE90B030}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F5F0C3E-7BB9-4883-B11C-59B9EE90B030}.Debug|Win32.Build.0 = Debug|Win32
+		{7F5F0C3E-7BB9-4883-B11C-59B9EE90B030}.Release|Win32.ActiveCfg = Release|Win32
+		{7F5F0C3E-7BB9-4883-B11C-59B9EE90B030}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

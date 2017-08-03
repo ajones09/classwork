@@ -1,0 +1,36 @@
+//scrollbar.rc
+
+#include "scrollbar.h"
+#include <windows.h> //#include "afxres.h"
+
+// Menu
+
+MYMENU MENU
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "Exit(&Q)",	IDM_END
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "About(&A)",	IDM_ABOUT
+    END
+    MENUITEM "Dialogbox(&D)",	IDM_DLG
+END
+// Dialog
+
+MYDIALOG DIALOGEX 0, 0, 250, 110
+//STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+STYLE DS_SETFONT | DS_FIXEDSYS //| WS_CHILD //no child!
+CAPTION "Dialog Box Test"
+FONT 12, "Times New Roman", 400, 0, 0x0
+BEGIN
+    LTEXT			"Color 1",IDC_STATIC,15,38,30,10
+    LTEXT			"Color 2",IDC_STATIC,15,53,30,10,
+    SCROLLBAR       IDC_SCROLLBAR1,50,38,83,11
+    LTEXT           "Static",IDC_STATIC1,150,38,20,11
+    SCROLLBAR       IDC_SCROLLBAR2,50,53,83,11
+    LTEXT           "Static",IDC_STATIC2,150,53,20,11
+    PUSHBUTTON      "OK",IDC_BUTTON1,11,75,60,14
+    PUSHBUTTON      "Cancel",IDC_BUTTON2,118,75,50,14
+END
